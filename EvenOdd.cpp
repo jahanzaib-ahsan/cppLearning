@@ -13,7 +13,7 @@ int main()
     }
     else if (number%2 !=0)
     {
-      cout<<"The number" <<number <<"entered is odd"<<endl;     
+      cout<<"The number " <<number <<" entered is odd"<<endl;     
     }
     return 0;
 }
