@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>
+
 using namespace std;
 void board()
 { 
@@ -50,10 +50,10 @@ int main()
     int seatNumber[5];
     while(choice!=0){
 
-    cout<<"Enter seat number you want to book between (1 to 5) "<<endl;
+    cout<<"Enter seat number you want to book between (1 to 10) "<<endl;
     cin>>n;
 
-    while (n>5||n<=0)
+    while (n>10||n<=0)
     {
         cout<<" Invalid Input Please select between range";
         cin>>n;
@@ -74,40 +74,5 @@ int main()
     cin>>choice;
     }
 
-
-
-
-
-    // switch (choice)
-    // {
-    // while (choice!=0)
-    // {  
-    // case (1):
-    //         cout<<"Enter seat number you want to book between (1 to 5) "<<endl;
-    //         cin>>n;
-    //     while (n>5||n<=0)
-    // {
-    //     cout<<"Invalid Input Please select between range";
-    //     cin>>n;
-    // }
-    
-    // if (seatNumber[choice]==1)
-    // {
-    //     cout<<"Seat is already booked ";
-    // }
-    // else
-    // {
-    //     seatNumber[choice]=1;
-    //     cout<<"Your seat is booked successfully"<<endl;;
-    // }
-    //     break;
-    // }
-    // case (0):
-    // cout<<"Thankyou for using Bashir sons";
-    //     break;
-    // default:
-    // cerr<<"Invalid Input "<<endl;
-    //     break;
-    // }
   return 0;
 }

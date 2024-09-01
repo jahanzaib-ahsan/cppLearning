@@ -7,7 +7,7 @@ int main()
     while (num != 0)
     {
        
- 
+ ]
     
     
     cout<<"Enter 0 to terminate"<<endl;
